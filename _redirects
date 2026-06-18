@@ -1,0 +1,8 @@
+# Cloudflare Pages redirect rules
+# Legacy Wix pages — removed when H&H converted to immigration-only practice.
+# 301 → homepage to signal permanent removal and transfer any backlink equity.
+
+/personalinjury     /   301
+/personalinjury/    /   301
+/businesslaw        /   301
+/businesslaw/       /   301
