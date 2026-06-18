@@ -1,4 +1,4 @@
-/* H&H Law - minimal site behaviour (mobile menu + FAQ accordion) */
+/* H&H Law - minimal site behaviour (mobile menu + FAQ accordion + consultation form) */
 function toggleMob(){
   var m = document.getElementById('mob-menu');
   if(!m) return;
@@ -14,5 +14,4 @@ function faq(btn){
   item.closest('.faq-list').querySelectorAll('.fi').forEach(function(i){
     i.classList.remove('open');
   });
-  if(!isOpen) item.classList.add('open');
-}
+  if(!is
