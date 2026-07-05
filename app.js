@@ -14,4 +14,40 @@ function faq(btn){
   item.closest('.faq-list').querySelectorAll('.fi').forEach(function(i){
     i.classList.remove('open');
   });
-  if(!is
+  if(!isOpen) item.classList.add('open');
+}
+
+/* Consultation form — AJAX submission via Formspree */
+(function(){
+  var form = document.getElementById('consult-form');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn  = document.getElementById('cf-submit');
+    var ok   = document.getElementById('cf-success');
+    var err  = document.getElementById('cf-error');
+    ok.style.display  = 'none';
+    err.style.display = 'none';
+    btn.disabled      = true;
+    btn.textContent   = 'Sending…';
+    fetch(form.action, {
+      method:  'POST',
+      body:    new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function(r){
+      if(r.ok){
+        ok.style.display = 'block';
+        form.reset();
+        btn.textContent = 'Sent ✓';
+      } else {
+        err.style.display = 'block';
+        btn.disabled    = false;
+        btn.textContent = 'Submit Consultation Request';
+      }
+    }).catch(function(){
+      err.style.display = 'block';
+      btn.disabled    = false;
+      btn.textContent = 'Submit Consultation Request';
+    });
+  });
+})();
