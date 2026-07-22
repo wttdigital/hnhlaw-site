@@ -1,5 +1,7 @@
 # H&H Law — llms.txt
 
+_Last updated: 2026-07-22_
+
 H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, California. The firm serves the Korean-American community throughout Orange County and Southern California.
 
 ## About the Firm
@@ -15,10 +17,12 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 ## Attorneys
 
 **Austin Kim, J.D.** — Founding Attorney
+- California State Bar No. 242573
 - Focuses on EB-5 investor visas, employment-based immigration, and family immigration
 - Profile: https://hnhplc.com/attorney-austin-kim.html
 
 **Chris Song, J.D.** — Associate Attorney
+- California State Bar No. 337445
 - Focuses on family immigration and naturalization
 - Profile: https://hnhplc.com/attorney-chris-song.html
 
@@ -48,6 +52,11 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 - Insights (blog): https://hnhplc.com/insights.html
 - Serving all of Orange County (Irvine, Anaheim, Fullerton & more): https://hnhplc.com/immigration-attorney-orange-county.html
 - Korean-language overview (한국어): https://hnhplc.com/immigration-lawyer-kr.html
+
+## Publications / Analysis
+
+- **USCIS Adjustment of Status Policy Change 2026** (analysis of PM-602-0199, I-485 discretion)
+   - https://hnhplc.com/uscis-adjustment-of-status-2026.html
 
 ## Geographic Coverage
 
