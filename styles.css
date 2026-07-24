@@ -237,12 +237,12 @@ button.ham{background:none;border:none;}
 @media(max-width:900px){.logo-contact{font-size:10px;}}
 
 /* footer readability - lighter text on the dark #0d1b2c footer */
-.fl-sub{color:#7e94b0;}
+.fl-sub{color:#9aabc4;}
 .fdesc{color:#9aabc4;}
 .fo{background:rgba(255,255,255,.05);border-color:#2a4a68;}
 .fo-a{color:#90a4be;}
 .fl a{color:#a2b3ca;}
 .fcp{color:#a2b3ca;}
-.fcopy{color:#8094ac;}
-.fpow{color:#8094ac;}
-.fdis{color:#7c90a8;}
+.fcopy{color:#9aabc4;}
+.fpow{color:#9aabc4;}
+.fdis{color:#9aabc4;}
