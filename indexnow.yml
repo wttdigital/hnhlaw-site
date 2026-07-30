@@ -1,0 +1,51 @@
+name: IndexNow ping
+
+# Notifies IndexNow (Bing, Yandex, and other participating engines) the moment
+# HTML pages change on main, so they re-crawl without a manual Webmaster-Tools submit.
+# Google is NOT an IndexNow participant — request indexing for Google in Search Console.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Optional: space/comma-separated URLs to submit. Defaults to HTML files changed in the last commit.'
+        required: false
+        default: ''
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          INDEXNOW_KEY: 337492f298a8ceb677f53161758e300f
+          HOST: hnhplc.com
+        run: |
+          set -uo pipefail
+          MANUAL="${{ github.event.inputs.urls }}"
+          if [ -n "$MANUAL" ]; then
+            FILES=$(echo "$MANUAL" | tr ', ' '\n' | sed "s#https\?://$HOST/##" | sed '/^$/d')
+          else
+            FILES=$(git diff --name-only --diff-filter=ACM HEAD^ HEAD -- '*.html' 2>/dev/null || true)
+          fi
+          if [ -z "$FILES" ]; then
+            echo "No changed HTML files to submit."; exit 0
+          fi
+          URLS=$(echo "$FILES" | sed "s#^#https://$HOST/#")
+          echo "Submitting these URLs to IndexNow:"; echo "$URLS"
+          JSON_URLS=$(echo "$URLS" | sed 's/.*/"&"/' | paste -sd, -)
+          PAYLOAD=$(printf '{"host":"%s","key":"%s","keyLocation":"https://%s/%s.txt","urlList":[%s]}' \
+            "$HOST" "$INDEXNOW_KEY" "$HOST" "$INDEXNOW_KEY" "$JSON_URLS")
+          echo "Payload: $PAYLOAD"
+          curl -sS -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data "$PAYLOAD" -w "\nIndexNow HTTP %{http_code}\n" || true
