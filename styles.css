@@ -41,6 +41,9 @@ nav{background:#1a2b4a;padding:0 48px;display:flex;align-items:center;justify-co
 .hero h1{font-size:48px;font-weight:800;color:#fff;line-height:1.15;margin-bottom:20px;}
 .hero h1 em{color:#c9a84c;font-style:normal;}
 .hero-sub{font-size:17px;color:#8aa8c8;line-height:1.75;margin-bottom:36px;max-width:500px;}
+.hero-sub a{color:#c9a84c;text-decoration:underline;text-underline-offset:3px;}
+.hero-sub a:visited{color:#c9a84c;}
+.hero-sub a:hover{color:#e0c060;}
 .btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px;}
 .btn-g{background:#c9a84c;color:#1a2b4a;padding:14px 28px;border-radius:4px;font-weight:700;font-size:14px;text-decoration:none;display:inline-block;transition:background .2s;cursor:pointer;border:none;}
 .btn-g:hover{background:#b89038;}
