@@ -44,6 +44,13 @@ nav{background:#1a2b4a;padding:0 48px;display:flex;align-items:center;justify-co
 .hero-sub a{color:#c9a84c;text-decoration:underline;text-underline-offset:3px;}
 .hero-sub a:visited{color:#c9a84c;}
 .hero-sub a:hover{color:#e0c060;}
+.hero-cards{position:absolute;right:64px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:14px;width:340px;z-index:1;}
+.hc-card{background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.25);border-radius:10px;padding:18px 20px;display:flex;gap:14px;align-items:flex-start;transition:border-color .2s;}
+.hc-card:hover{border-color:rgba(201,168,76,.5);}
+.hc-icon{font-size:22px;flex-shrink:0;line-height:1;margin-top:2px;}
+.hc-title{font-size:14px;font-weight:700;color:#c9a84c;margin-bottom:3px;}
+.hc-text{font-size:12.5px;color:#8aa8c8;line-height:1.6;}
+@media(max-width:1150px){.hero-cards{display:none;}}
 .btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px;}
 .btn-g{background:#c9a84c;color:#1a2b4a;padding:14px 28px;border-radius:4px;font-weight:700;font-size:14px;text-decoration:none;display:inline-block;transition:background .2s;cursor:pointer;border:none;}
 .btn-g:hover{background:#b89038;}
