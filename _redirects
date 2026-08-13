@@ -1,9 +1,12 @@
-# NOTE (2026-07-22): This file is DEAD CONFIG on GitHub Pages — GH Pages does NOT read _redirects
-# (that is Cloudflare Pages syntax). Real redirects on this site are the meta-refresh stub folders
-# (/personalinjury/, /businesslaw/, /austinkim-kr/, /home-kr/, /attorneys/). Kept only for reference
-# in case the site ever moves to Cloudflare. Do NOT assume 301s exist because of this file.
+# Cloudflare Pages redirect rules.
+# NOTE (updated 2026-08-12): the site now runs on CLOUDFLARE PAGES (deploy alias
+# hnhlaw-site.pages.dev, functions/_middleware.js). On Cloudflare Pages this file IS honored,
+# so the 301s below are LIVE. (Previously dead config under GitHub Pages.)
+# Maps legacy pre-migration (Wix) paths to the closest current page.
 
-/personalinjury     /   301
-/personalinjury/    /   301
-/businesslaw        /   301
-/businesslaw/       /   301
+/personalinjury            /                                    301
+/personalinjury/           /                                    301
+/businesslaw               /                                    301
+/businesslaw/              /                                    301
+/immigrationlaw            /employment-based-immigration.html   301
+/post/*                    /insights.html                       301
