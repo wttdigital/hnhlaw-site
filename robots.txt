@@ -1,3 +1,43 @@
+# H&H Law — robots.txt
+# Posture: maximum AI-search visibility. All crawlers allowed.
+# The explicit AI-crawler groups below are (a) insurance — named user-agent
+# groups do NOT inherit "User-agent: *" rules — and (b) a legible record of the
+# firm's training-bot posture. Tokens per official vendor docs (verified 2026-08).
+# NOTE: robots.txt is only half the control. AI search-index and live-fetch bots
+# must ALSO be allowed at the Cloudflare WAF / bot-protection layer (match on the
+# vendors' published source-IP JSONs) or they can be blocked while "allowed" here.
+
+# --- AI search-index crawlers (inclusion in AI search answers) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# --- AI live, user-triggered fetchers ---
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# --- AI training crawlers (posture: ALLOW — no search-visibility cost either way) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Everything else (Googlebot, bingbot fall here) ---
 User-agent: *
 Allow: /
 
