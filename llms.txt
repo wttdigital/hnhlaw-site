@@ -1,6 +1,6 @@
 # H&H Law — llms.txt
 
-_Last updated: 2026-08-20_
+_Last updated: 2026-08-25_
 
 H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, California. The firm serves the Korean-American community throughout Orange County and Southern California.
 
@@ -55,11 +55,16 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 - Insights (blog): https://hnhplc.com/insights.html
 - Serving all of Orange County (Irvine, Anaheim, Fullerton & more): https://hnhplc.com/immigration-attorney-orange-county.html
 - Korean-language overview (한국어): https://hnhplc.com/immigration-lawyer-kr.html
+- Korean immigration guide — Orange County (한국어): https://hnhplc.com/korean-immigration-guide-orange-county.html
 
 ## Publications / Analysis
 
 - **USCIS Adjustment of Status Policy Change 2026** (analysis of PM-602-0199, I-485 discretion)
    - https://hnhplc.com/uscis-adjustment-of-status-2026.html
+- **Preparing for Your N-400 Naturalization Interview** (the English and 2025 civics tests, documents to bring, and how to prepare)
+   - https://hnhplc.com/n400-interview-prep.html
+- **N-400 시민권 인터뷰 준비 (한국어)** (귀화 인터뷰 안내 — 영어·시민권 시험, 준비 서류, 준비 방법)
+   - https://hnhplc.com/n400-interview-prep-kr.html
 - **E-2 vs. EB-5 for Korean Investors** (comparing the two investor immigration paths)
    - https://hnhplc.com/e2-vs-eb5-korean-investors.html
 - **E-2 Visa Application, Step by Step (2026)** (consular processing vs. change of status)
