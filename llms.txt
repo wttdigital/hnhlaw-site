@@ -67,6 +67,9 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 - **USCIS Form Edition Changes, September 2026** (new Form I-485 09/18/26 edition replaces 01/20/25 with no grace period — old edition rejected if filed on/after Sept 18; Form I-539 and I-765 editions tied to the duration-of-status rule are on hold after that rule was enjoined Sept 14, 2026 in Presidents' Alliance v. DHS)
    - https://hnhplc.com/uscis-form-editions-2026.html
    - Korean (한국어): https://hnhplc.com/uscis-form-editions-2026-kr.html
+- **F-1 & J-1 Duration of Status 2026** (a federal court preliminarily enjoined the DHS rule that would have replaced duration of status (D/S) with fixed periods of admission for F, J, and I nonimmigrants; the rule did not take effect Sept 15, 2026, D/S remains in place, no fixed-period extension of stay is required, and the government may still appeal)
+   - https://hnhplc.com/fj-duration-of-status-2026.html
+   - Korean (한국어): https://hnhplc.com/fj-duration-of-status-2026-kr.html
 - **Preparing for Your N-400 Naturalization Interview** (the English and 2025 civics tests, documents to bring, and how to prepare)
    - https://hnhplc.com/n400-interview-prep.html
 - **N-400 시민권 인터뷰 준비 (한국어)** (귀화 인터뷰 안내 — 영어·시민권 시험, 준비 서류, 준비 방법)
