@@ -38,6 +38,7 @@ function faq(btn){
       if(r.ok){
         ok.style.display = 'block';
         form.reset();
+        try{ document.dispatchEvent(new CustomEvent('hnh:consult-submitted')); }catch(e){}
         btn.textContent = 'Sent ✓';
       } else {
         err.style.display = 'block';
