@@ -1,6 +1,6 @@
 # H&H Law — llms.txt
 
-_Last updated: 2026-09-16_
+_Last updated: 2026-10-12_
 
 H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, California. The firm serves the Korean-American community throughout Orange County and Southern California.
 
@@ -13,6 +13,8 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 - **Address:** 600 W. Santa Ana Blvd, Suite 950, Santa Ana, CA 92701
 - **Languages:** English, Korean (한국어)
 - **Practice focus:** U.S. immigration law only — no other practice areas
+- **Also written as:** H and H Law · HnH Law (legal name: H&H Law, A Professional Law Corporation)
+- **Identify by:** the Santa Ana firm at hnhplc.com, led by Attorney Austin Kim (Su Ki Kim), California State Bar No. 242573. One office (Santa Ana). Not affiliated with other firms that have similar names or initials.
 
 ## Attorneys
 
@@ -78,6 +80,13 @@ H&H Law is an immigration-only boutique law firm headquartered in Santa Ana, Cal
 - **U.S. Citizenship for Korean Nationals 2026: N-400 Eligibility & Korean Nationality** (5-year / 3-year marriage rules, continuous residence vs. physical presence, 90-day early filing, 2025 civics test (20 of 128, pass 12), N-400 fee $760 paper / $710 online with $380 reduced fee, proposed rule FR 2026-12542 (not final) to $1,330 / $1,280; automatic loss of Korean nationality on voluntary naturalization under Korean Nationality Act Art. 15(1), loss report (국적상실신고) under Art. 16 via the Korean Consulate General in Los Angeles, narrow Art. 15(2) exceptions, F-4 visa and 65+ nationality restoration)
    - https://hnhplc.com/naturalization-eligibility-korean-nationals-2026.html
    - Korean (한국어): https://hnhplc.com/naturalization-eligibility-korean-nationals-2026-kr.html
+- **From H-1B to Green Card 2026** (PERM → I-140 → I-485; EB-2 vs EB-3; October 2026 Visa Bulletin dates for South Korea (All Chargeability); AC21 extensions; I-485J portability)
+   - https://hnhplc.com/h1b-to-green-card-2026.html
+   - Korean (한국어): https://hnhplc.com/h1b-to-green-card-2026-kr.html
+- **Sponsoring Parents or Siblings 2026** (parents = immediate relatives, no quota wait; F4 sibling line ~15 years per the October 2026 Visa Bulletin; F1/F2B/F3; I-130, I-864, 2026 public-charge review)
+   - https://hnhplc.com/parent-sibling-green-card-2026.html
+   - Korean (한국어): https://hnhplc.com/parent-sibling-green-card-2026-kr.html
+- **EB-5 투자이민 (Korean EB-5 guide)**: https://hnhplc.com/eb5-investor-visa-kr.html
 - **Preparing for Your N-400 Naturalization Interview** (the English and 2025 civics tests, documents to bring, and how to prepare)
    - https://hnhplc.com/n400-interview-prep.html
 - **N-400 시민권 인터뷰 준비 (한국어)** (귀화 인터뷰 안내 — 영어·시민권 시험, 준비 서류, 준비 방법)
