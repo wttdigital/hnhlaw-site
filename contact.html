@@ -349,5 +349,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 
 <script src="app.js"></script>
+<script>
+/* GA4/GTM signal: visitor starts interacting with the embedded Google booking calendar (fires once per page view). */
+(function(){
+  var fired=false, f=document.getElementById('booking-frame');
+  if(!f) return;
+  window.addEventListener('blur', function(){
+    if(fired) return;
+    setTimeout(function(){
+      if(document.activeElement===f){
+        fired=true;
+        try{ (window.dataLayer=window.dataLayer||[]).push({event:'booking_calendar_engaged', booking_location:'contact_page'}); }catch(e){}
+      }
+    },0);
+  });
+})();
+</script>
 </body>
 </html>
